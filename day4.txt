@@ -1,0 +1,36 @@
+# 파이썬
+
+#정수 10개 생성, 리스트 저장한 후 출력
+n=[]
+for i in range(10):
+  n.append(i)
+print(n)
+
+#1 1-5 제곱으로 구성된 리스트 구성
+[i for i in range(10) i**]
+
+## 람다 함수 ##
+
+#일반함수 덧셈함수
+def add(x,y):
+  return x+y
+add(10,20)
+
+# 람다함수정의
+(lambda x,y:x+y)(10,20)
+(lambda x,y:x-y)(10,20)
+
+#func
+func = lambda x,y:x+y
+type(func)
+print(func(10,20))
+print(func(1,2))
+
+#덧셈 함수
+def add(a,b):
+  return a+b
+while True:
+  menu = '1)덧셈, 2)뺄셈, 3)곱셈, 4)나눗셈, 5)종료'
+  input = int(input(menu))
+  
+
